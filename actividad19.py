@@ -1,4 +1,5 @@
 print("Hellooooooo Bienvenido a nuestro programa ")
+#Este es un programa de menú, en el que se pueden hacer operaciones,imprimir mensajes y salir del programa.
 
 #Esta variable es la que guarda la opcion qude el usuario elija
 opciones = 0
@@ -6,7 +7,7 @@ opciones = 0
 #Mientras la opcion es diferente a 3 puede seguir con el menú
 while opciones != 3:
     print("MENÚ PRINCIPAL") #Imprime "menú principal"
-    print("1. Operaciones") # Esta opción va a ser para poder hacer opciones
+    print("1. Operaciones") # Esta opción va a ser para poder hacer operaciones
     print("2. Mensajes") #Esta opción va a imprimir mensajes
     print("3. Salir") #Esta opción es para salir del programa
 
