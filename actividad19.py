@@ -1,4 +1,4 @@
-print("Holaaaaaa Bienvenido a nuestro programa ")
+print("Hellooooooo Bienvenido a nuestro programa ")
 
 #Esta variable es la que guarda la opcion qude el usuario elija
 opciones = 0
@@ -48,9 +48,9 @@ while opciones != 3:
             sub = int(input("Elige una opción: ")) #Aqui tiene que elegir la opcion 
 
             if sub == 1:
-                print("Esta opcion es para imprimir una palabra 10 veces") #Imprime esta frase.
+                print("Esta opcion es para imprimir una palabra o frase 10 veces") #Imprime esta frase.
 
-                palabra= input("ingrese una palabra que quiera repetir 10 veces por favor: ") #se ingresa la palabra o frase. 
+                palabra= input("ingrese una palabra o frase que quiera repetir 10 veces por favor: ") #se ingresa la palabra o frase. 
                 for i in range(10):
                  print("Su palabra es:", palabra ) #se imprime la palabra o frase.
                 
